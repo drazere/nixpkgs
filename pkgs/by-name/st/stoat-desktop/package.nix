@@ -11,11 +11,11 @@
   copyDesktopItems,
   pnpm_10,
   nodejs,
-  electron_38,
+  electron_42,
   zip,
 }:
 let
-  electron = electron_38;
+  electron = electron_42;
   stdenv = stdenvNoCC;
 in
 stdenv.mkDerivation (finalAttrs: {
